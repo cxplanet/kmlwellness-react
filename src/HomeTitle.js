@@ -11,4 +11,4 @@ function HomeTitle() {
     )
 }
 
-export default HomeTitle
+export default HomeTitle;
