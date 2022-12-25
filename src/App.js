@@ -4,6 +4,7 @@ import './HomeTitle';
 import HomeTitle from './HomeTitle';
 import './NavControl';
 import NavControl from './NavControl';
+import { YogaSchedule } from './YogaSchedule';
 
 function App() {
   return (
