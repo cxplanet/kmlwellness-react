@@ -5,6 +5,7 @@ import HomeTitle from './HomeTitle';
 import './NavControl';
 import NavControl from './NavControl';
 import { YogaSchedule } from './YogaSchedule';
+import FullCalendar from '@fullcalendar/react';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </div>
         <div>
           <HomeTitle className="heading-primary"/>
+          {/*<FullCalendar*/}
         </div>
       </header>
     </div>

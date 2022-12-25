@@ -1,16 +1,15 @@
-import FullCalendar from '@fullcalendar/react'
-import dayGridPlugin from '@fullcalendar/daygrid'
+import FullCalendar from '@fullcalendar/react';
+import rrulePlugin from '@fullcalendar/rrule';
+import dayGridPlugin from '@fullcalendar/daygrid';
 
-const events = [
-  { title: 'Meeting', start: new Date() }
-]
+const events =  []
 
 export function YogaSchedule() {
   return (
     <div>
       <h1>Yoga Schedule</h1>
       <FullCalendar
-        plugins={[dayGridPlugin]}
+        plugins={[dayGridPlugin,rrulePlugin]}
         initialView='dayGridMonth'
         weekends={true}
         events={events}
