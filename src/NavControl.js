@@ -12,11 +12,11 @@ function NavControl() {
 
              <nav className="navigation__nav">
                 <ul className="navigation__list">
-                    <li className="navigation__item"><a href="#" class="navigation__link"><span>01</span>About KMLWellness</a></li>
-                    <li className="navigation__item"><a href="#" class="navigation__link"><span>02</span>Yoga Classes</a></li>
-                    <li className="navigation__item"><a href="#" class="navigation__link"><span>03</span>Living Healthy</a></li>
+                    <li className="navigation__item"><a href="#" className="navigation__link"><span>01</span>About KMLWellness</a></li>
+                    <li className="navigation__item"><a href="#" className="navigation__link"><span>02</span>Yoga Classes</a></li>
+                    <li className="navigation__item"><a href="#" className="navigation__link"><span>03</span>Living Healthy</a></li>
                     {/*<li className="navigation__item"><a href="#" class="navigation__link"><span>04</span>Blog</a></li>*/}
-                    <li className="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contact</a></li>
+                    <li className="navigation__item"><a href="#" className="navigation__link"><span>05</span>Contact</a></li>
                     </ul>
             </nav>
         </div>
