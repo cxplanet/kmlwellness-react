@@ -4,8 +4,7 @@ import './HomeTitle';
 import HomeTitle from './HomeTitle';
 import './NavControl';
 import NavControl from './NavControl';
-import { YogaSchedule } from './YogaSchedule';
-import FullCalendar from '@fullcalendar/react';
+import Schedule from './Schedule';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         </div>
         <div>
           <HomeTitle className="heading-primary"/>
-          {/*<FullCalendar*/}
+          {/* <Schedule /> */}
         </div>
       </header>
     </div>
