@@ -5,6 +5,7 @@ import HomeTitle from './HomeTitle';
 import './NavControl';
 import NavControl from './NavControl';
 import Schedule from './Schedule';
+import YogaGallery from './Gallery';
 
 function App() {
   return (
@@ -14,11 +15,13 @@ function App() {
         <div className="navigation">
           <NavControl />
         </div>
-        <div>
-          <HomeTitle className="heading-primary"/>
-          {/* <Schedule /> */}
-        </div>
       </header>
+      <div
+          className="App-content">
+          {/*<HomeTitle className="heading-primary"/>*/}
+          {/*<Schedule />*/}
+          <YogaGallery/>
+      </div>
     </div>
   );
 }
