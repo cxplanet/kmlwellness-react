@@ -11,4 +11,10 @@
     padding: 30px;
     font-size: 30px;
     text-align: center;
+    height: 200px;
   }
+
+.grid-item img {
+    object-fit: contain;
+    height: 200px;
+}
