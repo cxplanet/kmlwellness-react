@@ -12,7 +12,7 @@ function YogaGallery() {
     return (
       <div className="grid-container">
         <div className="grid-item" onClick={cellClick}>
-            <img id="1" src="https://www.kml-wellness.com/img/ypose4.jpg" alt="ypose4" />
+            <img id="1" src="https://www.kml-wellness.com/img/kmlpose4-tn.webp" alt="kmlpose4" />
         </div>
         <div id="2" className="grid-item">2</div>
         <div className="grid-item">3</div>

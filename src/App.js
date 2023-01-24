@@ -5,7 +5,7 @@ import HomeTitle from './HomeTitle';
 import './NavControl';
 import NavControl from './NavControl';
 import Schedule from './Schedule';
-import YogaGallery from './Gallery';
+import YogaGallery2 from './Gallery2';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           className="App-content">
           {/*<HomeTitle className="heading-primary"/>*/}
           {/*<Schedule />*/}
-          <YogaGallery/>
+          <YogaGallery2/>
       </div>
     </div>
   );
