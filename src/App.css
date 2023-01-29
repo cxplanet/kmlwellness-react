@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   background-image: url("https://www.kml-wellness.com/img/stones-color.jpg");
@@ -25,9 +26,6 @@
 
 .App-header {
   height: 20vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
   min-height: 20vh;
   display: flex;
   flex-direction: column;
