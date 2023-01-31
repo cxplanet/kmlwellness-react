@@ -1,11 +1,5 @@
 
-.App {
-  text-align: center;
-  background-image: url("https://www.kml-wellness.com/img/stones-color.jpg");
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
+
 
 .App-content {
   color: #fbae61;
@@ -22,6 +16,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body {
+  height: 100%;
+  background-color: red;
 }
 
 .App-header {

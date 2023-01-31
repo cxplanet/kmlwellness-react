@@ -12,7 +12,7 @@ import AppLayout from './AppLayout';
 
 function App() {
   return (
-    <div>
+    <div className="container">
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<HomeTitle />} />
