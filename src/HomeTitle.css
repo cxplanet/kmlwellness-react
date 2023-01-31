@@ -1,6 +1,7 @@
 .heading-primary {
     color: rgba(255, 255, 255, 0.833);
     text-transform: uppercase;
+    text-align: center;
     backface-visibility: hidden;
     margin-bottom: 6rem; }
     .heading-primary--main {
