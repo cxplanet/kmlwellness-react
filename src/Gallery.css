@@ -18,3 +18,11 @@
     object-fit: contain;
     height: 200px;
 }
+
+.gallery {
+  border: 5px;
+  border-color: red;
+}
+.thumbnails-container {
+  border-color: red;
+}
