@@ -9,6 +9,9 @@ import YogaGallery2 from './Gallery2';
 import { Routes, Route, Link } from "react-router-dom";
 import './NavControl.css';
 import AppLayout from './AppLayout';
+import About from './About';
+import HealthCoaching from './HealthCoaching';
+import Contact from './Contact';
 
 function App() {
 
@@ -33,9 +36,12 @@ function App() {
       <Routes>
         <Route path="/" element={<AppLayout />}>
           <Route index element={<HomeTitle />} />
+          <Route path="about" element={<About />}></Route>
           <Route path="classes" element={<Schedule />}></Route>
+          <Route path="coaching" element={<HealthCoaching />}></Route>
           <Route path="gallery" element={<YogaGallery2 imges={tnImges} />}></Route>
           <Route path="*" element={<HomeTitle />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
         </Route>
       </Routes>
 
